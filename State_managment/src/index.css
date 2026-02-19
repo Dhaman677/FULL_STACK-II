@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar.light {
+  background: #ffffff;
+  color: black;
+}
+
+.navbar.dark {
+  background: #222;
+  color: white;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
