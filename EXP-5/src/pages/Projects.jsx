@@ -1,0 +1,48 @@
+import Navbar from "../components/Navbar";
+import { Container, Typography, Card, CardContent } from "@mui/material";
+import { Grid } from "@mui/material";
+
+export default function Projects() {
+  return (
+    <>
+    
+
+      <Container sx={{ marginTop: 4 }}>
+        <Typography variant="h4" gutterBottom>
+          Analytics Overview
+        </Typography>
+
+        <Grid container spacing={3}>
+         <Grid size={{ xs: 12, md: 6 }}>
+            <Card>
+              <CardContent>
+                <Typography variant="h6">Traffic</Typography>
+                <Typography>Website visits increased by 25%</Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+
+         <Grid size={{ xs: 12, md: 6 }}>
+            <Card>
+              <CardContent>
+                <Typography variant="h6">Conversion Rate</Typography>
+                <Typography>Current conversion: 3.8%</Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+
+         <Grid size={{ xs: 12, md: 6 }}>
+            <Card>
+              <CardContent>
+                <Typography variant="h6">Performance</Typography>
+                <Typography>System uptime: 99.9%</Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+        </Grid>
+      </Container>
+
+      
+    </>
+  );
+}

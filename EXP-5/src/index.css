@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+/* Light Theme */
+.app.light {
+  background-color: #f9fafb;
+  color: #222;
+}
+
+/* Dark Theme */
+.app.dark {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+/* Page Wrapper */
+.page {
+  padding: 40px;
+  transition: all 0.3s ease;
+}
+
+/* Cards */
+.card,
+.analytics-card {
+  padding: 20px;
+  border-radius: 12px;
+  margin: 15px 0;
+  transition: all 0.3s ease;
+}
+
+/* Light Theme Cards */
+.app.light .card,
+.app.light .analytics-card {
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* Dark Theme Cards */
+.app.dark .card,
+.app.dark .analytics-card {
+  background: #1e1e1e;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.app.light .navbar {
+  background: white;
+  color: #222;
+  border-bottom: 1px solid #ddd;
+}
+
+.app.dark .navbar {
+  background: #1e1e1e;
+  color: white;
+  border-bottom: 1px solid #333;
+}
+
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.app.light .navbar a {
+  color: #222;
+}
+
+.app.dark .navbar a {
+  color: #f5f5f5;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.app.light footer {
+  background: #f1f1f1;
+}
+
+.app.dark footer {
+  background: #1a1a1a;
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.app.light button {
+  background: #222;
+  color: white;
+}
+
+.app.dark button {
+  background: #f5f5f5;
+  color: black;
+}
+
+/* Inputs */
+input {
+  padding: 8px;
+  border-radius: 6px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+.app.dark input {
+  background: #2a2a2a;
+  color: white;
+  border: 1px solid #444;
+}
