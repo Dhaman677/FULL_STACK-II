@@ -1,16 +1,36 @@
-# React + Vite
+#  Experiment 5 – Task Dashboard (React + Redux Toolkit)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Overview
 
-Currently, two official plugins are available:
+This project is an extension of **Experiment 4**.  
+The Task Dashboard is a multi-page React application enhanced with:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Redux Toolkit for structured state management
+- Context API for global theme control
+- useMemo for performance optimization
+- React Router for multi-page navigation
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Objective
 
-## Expanding the ESLint configuration
+- Implement scalable state management using Redux Toolkit
+- Use Context API for global theme toggling
+- Optimize derived calculations using useMemo
+- Extend a multi-page React app while maintaining consistent UI/UX
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- React (Vite)
+- React Router DOM
+- Redux Toolkit
+- React Redux
+- Context API
+- Material UI (MUI)
+- CSS
+
+---
+
+
